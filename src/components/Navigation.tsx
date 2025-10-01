@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logoQBK from "@/assets/logo.png";
+import logo from "@/assets/logo.png";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -41,7 +41,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-            <img src={logoQBK} alt="QBK Logo" className="w-44 h-44 object-contain" />
+            <img src={logo} alt="QBK Logo" className="w-44 h-44 object-contain" />
             
             </Link>
 
