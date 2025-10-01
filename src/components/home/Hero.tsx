@@ -65,6 +65,11 @@ const Hero = ({ children }: HeroProps) => {
                   Learn More
                 </Button>
               </Link>
+              <a href="tel:+18882744313">
+                <Button size="lg" variant="outline" className="border-primary-foreground/20 bg-white text-accent hover:bg-accent hover:text-white hover:border-accent transition-colors w-full sm:w-auto">
+                  Call: +1 (888) 274-4313
+                </Button>
+              </a>
             </div>
 
             {/* Stats Grid */}

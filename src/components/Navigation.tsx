@@ -41,7 +41,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-            <img src="/src/assets/logo.png" alt="QBK Logo" className="w-44 h-44 object-contain" />
+            <img src={logoQBK} alt="QBK Logo" className="w-44 h-44 object-contain" />
             
             </Link>
 
