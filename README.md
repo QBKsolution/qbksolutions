@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +72,60 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+=======
+# QBK Solutions Website
+
+Production marketing site for QBK Solutions built with Vite + React + TypeScript + Tailwind + shadcn/ui.
+
+## Tech Stack
+- Vite (bundler)
+- React 18 + TypeScript
+- Tailwind CSS + shadcn/ui components
+- Radix UI primitives
+
+## Local Development
+```bash
+git clone https://github.com/QBKsolution/qbksolutions.git
+cd qbksolutions
+npm install
+npm run dev
+```
+App runs by default at: http://localhost:8080
+
+## Production Build
+```bash
+npm run build
+npm run preview   # Optional local preview of dist
+```
+
+## Deployment (GitHub Pages)
+Automatic via GitHub Actions workflow at `.github/workflows/deploy.yml` on pushes to `main`.
+
+Custom domain: `qbksolution.com` managed via `CNAME` file.
+
+### SPA Routing Support
+`404.html` provides fallback so deep links route correctly with React Router.
+
+## Project Structure (key folders)
+```
+src/
+  components/
+  pages/
+  assets/
+  hooks/
+```
+
+## Environment Variables
+Currently no runtime env vars required. Add as needed via import.meta.env pattern.
+
+## Contributing
+1. Create a feature branch.
+2. Commit changes (conventional or clear messages).
+3. Push and open a PR.
+
+## License
+Proprietary – All rights reserved © QBK Solutions.
+
+---
+For questions or support contact: +1 8882744313
+>>>>>>> afc3c4dd4cd4e7a1bd345514ec9374bc2b6b9055
