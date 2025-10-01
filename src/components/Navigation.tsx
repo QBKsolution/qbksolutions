@@ -66,7 +66,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button variant="default" className="bg-accent hover:bg-accent/90">
-              Get Started
+              +1 (888) 274-4313
             </Button>
           </div>
 

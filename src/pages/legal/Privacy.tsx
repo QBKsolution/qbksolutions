@@ -98,7 +98,7 @@ const Privacy = () => {
                   <br />
                   Email: privacy@qbosolutions.com
                   <br />
-                  Phone: +1 8882744313
+                  Phone: +1 (888) 274-4313
                 </p>
               </section>
             </div>
