@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // SPA fallback for React Router on GitHub Pages
+      // If a direct deep link is requested, rewrite to index.html while preserving the path
+      (function() {
+        var l = window.location;
+        var redirect = '/' + (l.pathname + l.search + l.hash).replace(/^\//,'');
+        if (redirect !== '/' && redirect !== '/index.html') {
+          // Store the original path so the app can read it if needed
+          sessionStorage.setItem('spa:redirect', redirect);
+        }
+        window.location.replace('/');
+      })();
+    </script>
+    <style>body{font-family:system-ui,Arial,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;background:#0f172a;color:#fff}</style>
+  </head>
+  <body>
+    <p>Redirecting to the application...</p>
+  </body>
+</html>
